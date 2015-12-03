@@ -15,6 +15,7 @@
 		12EA80771C10334C003877B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EA80751C10334C003877B2 /* LaunchScreen.storyboard */; };
 		12EA80821C10334C003877B2 /* DrawguessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EA80811C10334C003877B2 /* DrawguessTests.m */; };
 		12EA808D1C10334C003877B2 /* DrawguessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EA808C1C10334C003877B2 /* DrawguessUITests.m */; };
+		12EA80DB1C10351D003877B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EA80DA1C10351D003877B2 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		12EA80881C10334C003877B2 /* DrawguessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawguessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EA808C1C10334C003877B2 /* DrawguessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawguessUITests.m; sourceTree = "<group>"; };
 		12EA808E1C10334C003877B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EA80D91C10351D003877B2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		12EA80DA1C10351D003877B2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				12EA806A1C10334C003877B2 /* AppDelegate.h */,
 				12EA806B1C10334C003877B2 /* AppDelegate.m */,
+				12EA80D91C10351D003877B2 /* Person.h */,
+				12EA80DA1C10351D003877B2 /* Person.m */,
 				12EA806D1C10334C003877B2 /* ViewController.h */,
 				12EA806E1C10334C003877B2 /* ViewController.m */,
 				12EA80701C10334C003877B2 /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				12EA806F1C10334C003877B2 /* ViewController.m in Sources */,
 				12EA806C1C10334C003877B2 /* AppDelegate.m in Sources */,
+				12EA80DB1C10351D003877B2 /* Person.m in Sources */,
 				12EA80691C10334C003877B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				12EA80931C10334C003877B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12EA80941C10334C003877B2 /* Build configuration list for PBXNativeTarget "DrawguessTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				12EA80961C10334C003877B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12EA80971C10334C003877B2 /* Build configuration list for PBXNativeTarget "DrawguessUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				12EA80991C10334C003877B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
